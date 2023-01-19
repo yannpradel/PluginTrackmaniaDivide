@@ -1,3 +1,6 @@
+[Setting name="Something"]
+bool Setting_Something;
+
 void Main() {
     print("Hello from the new plugin system!");
 }
