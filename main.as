@@ -1,4 +1,10 @@
-void Main()
+void Main() {
+    print("Hello from the new plugin system!");
+}
+
+void RenderMenu()
 {
-   print("Hello world!");
+  if (UI::MenuItem("My first menu item!")) {
+    print("You clicked me!!");
+  }
 }
