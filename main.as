@@ -1,2 +1,4 @@
-
-#tu me manque..
+void Main()
+{
+   print("Hello world!");
+}
