@@ -7,7 +7,7 @@ void Main() {
 
 void RenderMenu()
 {
-  if (UI::MenuItem("My first menu item!")) {
+  if (UI::MenuItem(Icons::Circle + "My first menu item!")) {
     print("You clicked me!!");
   }
 }
